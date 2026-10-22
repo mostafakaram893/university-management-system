@@ -1,6 +1,6 @@
 # 🎓 University Management & Academic Analytics System
 
-An end-to-end relational database design, implementation, and business intelligence reporting project for an enterprise academic institution. This project covers conceptual data modeling (ERD), a normalized relational database schema (DDL & DML in T-SQL), and an executive 3-page interactive Power BI dashboard.
+An end-to-end relational database design, implementation, and business intelligence reporting project for a university: ERD modeling, a normalized T-SQL schema, analytical queries, and a 3-page Power BI report. This project covers conceptual data modeling (ERD), a normalized relational database schema (DDL & DML in T-SQL), and an executive 3-page interactive Power BI dashboard.
 
 ---
 
