@@ -21,13 +21,13 @@ The system models the following business domains and relationships:
 - **Supervised Research Projects:** Multi-role student collaboration on faculty-led research initiatives.
 - **Campus Life & Facilities:** Student participation across student clubs and campus library book borrowings.
 
-*(Diagram available in `diagrams/` folder)*
+![University ERD](diagrams/university_erd.png)
 
 ---
 
 ## 💾 2. Relational Database Design (T-SQL)
 
-The schema scripts are located in the `sql/` directory and include:
+The schema scripts are located in the `SQl/` directory and include:
 - **Core Entities:** `Department`, `Professor`, `Student`, `University_ID`, `Course`, `Research_Project`, `Club`, `Library`, `Book`.
 - **Associative / Junction Tables:** `Course_Enrollment`, `Student_Project_Collaboration`, `Club_Membership`, `Book_Borrowing`.
 - **Integrity Rules:** Primary Keys, Foreign Keys with cascading actions, and domain `CHECK` constraints on grades, budgets, and book copy counts.
@@ -57,7 +57,7 @@ The Power BI report contains three dedicated analysis views:
 ```text
 university-management-system/
 │
-├── sql/           # DDL & DML database creation and data population scripts
+├── SQl/           # DDL & DML database creation and data population scripts, plus analytical example queries
 ├── powerbi/       # Interactive Power BI dashboard (.pbix)
 ├── diagrams/      # ERD source diagram (.drawio) and exported visuals
 └── README.md      # Comprehensive project documentation
